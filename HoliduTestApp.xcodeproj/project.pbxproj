@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DFD654E200A2E110012CABE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFD654D200A2E110012CABE /* AppDelegate.swift */; };
+		7DFD6550200A2E110012CABE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFD654F200A2E110012CABE /* MainViewController.swift */; };
+		7DFD6553200A2E110012CABE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DFD6551200A2E110012CABE /* Main.storyboard */; };
+		7DFD6555200A2E110012CABE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DFD6554200A2E110012CABE /* Assets.xcassets */; };
+		7DFD6558200A2E110012CABE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DFD6556200A2E110012CABE /* LaunchScreen.storyboard */; };
+		7DFD6562200A30170012CABE /* BooksController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFD6561200A30170012CABE /* BooksController.swift */; };
+		7DFD6565200A30370012CABE /* BooksService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFD6564200A30370012CABE /* BooksService.swift */; };
+		7DFD6567200A30400012CABE /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFD6566200A30400012CABE /* Services.swift */; };
+		7DFD6569200A306D0012CABE /* Controllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFD6568200A306D0012CABE /* Controllers.swift */; };
+		7DFD656B200A32330012CABE /* APIVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFD656A200A32330012CABE /* APIVersion.swift */; };
+		7DFD656D200A34E60012CABE /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFD656C200A34E60012CABE /* Response.swift */; };
+		7DFD6570200A36480012CABE /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFD656F200A36480012CABE /* Book.swift */; };
+		7DFD6572200A37790012CABE /* ObjectResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFD6571200A37790012CABE /* ObjectResponse.swift */; };
+		7DFD6574200A3A870012CABE /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFD6573200A3A870012CABE /* Models.swift */; };
+		7DFD6578200A3C210012CABE /* BooksDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFD6577200A3C210012CABE /* BooksDataSource.swift */; };
+		7DFD657A200A3CCB0012CABE /* Injectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFD6579200A3CCB0012CABE /* Injectable.swift */; };
+		7DFD657C200A3FE10012CABE /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFD657B200A3FE10012CABE /* BookCell.swift */; };
+		7DFD657F200A44630012CABE /* UIImageView+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFD657E200A44630012CABE /* UIImageView+Networking.swift */; };
+		CAA0421CB8FB59D79B010BC1 /* Pods_HoliduTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15FF5F3D3B855016E37D262F /* Pods_HoliduTestApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15FF5F3D3B855016E37D262F /* Pods_HoliduTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HoliduTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C48EF027728E35A4389A824 /* Pods-HoliduTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoliduTestApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-HoliduTestApp/Pods-HoliduTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		7DFD654A200A2E110012CABE /* HoliduTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoliduTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DFD654D200A2E110012CABE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7DFD654F200A2E110012CABE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7DFD6552200A2E110012CABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DFD6554200A2E110012CABE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DFD6557200A2E110012CABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7DFD6559200A2E110012CABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DFD6561200A30170012CABE /* BooksController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksController.swift; sourceTree = "<group>"; };
+		7DFD6564200A30370012CABE /* BooksService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksService.swift; sourceTree = "<group>"; };
+		7DFD6566200A30400012CABE /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		7DFD6568200A306D0012CABE /* Controllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controllers.swift; sourceTree = "<group>"; };
+		7DFD656A200A32330012CABE /* APIVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIVersion.swift; sourceTree = "<group>"; };
+		7DFD656C200A34E60012CABE /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		7DFD656F200A36480012CABE /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		7DFD6571200A37790012CABE /* ObjectResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectResponse.swift; sourceTree = "<group>"; };
+		7DFD6573200A3A870012CABE /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		7DFD6577200A3C210012CABE /* BooksDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksDataSource.swift; sourceTree = "<group>"; };
+		7DFD6579200A3CCB0012CABE /* Injectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injectable.swift; sourceTree = "<group>"; };
+		7DFD657B200A3FE10012CABE /* BookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
+		7DFD657E200A44630012CABE /* UIImageView+Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Networking.swift"; sourceTree = "<group>"; };
+		AE1E062F3D3848B00CB43DA4 /* Pods-HoliduTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoliduTestApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HoliduTestApp/Pods-HoliduTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DFD6547200A2E110012CABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA0421CB8FB59D79B010BC1 /* Pods_HoliduTestApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09B3A4C481257239ECF92B27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15FF5F3D3B855016E37D262F /* Pods_HoliduTestApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3301BF3310791D2DAD56F6D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE1E062F3D3848B00CB43DA4 /* Pods-HoliduTestApp.debug.xcconfig */,
+				3C48EF027728E35A4389A824 /* Pods-HoliduTestApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DFD6541200A2E110012CABE = {
+			isa = PBXGroup;
+			children = (
+				7DFD654C200A2E110012CABE /* HoliduTestApp */,
+				7DFD654B200A2E110012CABE /* Products */,
+				3301BF3310791D2DAD56F6D5 /* Pods */,
+				09B3A4C481257239ECF92B27 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7DFD654B200A2E110012CABE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DFD654A200A2E110012CABE /* HoliduTestApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DFD654C200A2E110012CABE /* HoliduTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				7DFD656E200A36130012CABE /* Models */,
+				7DFD6563200A302B0012CABE /* Services */,
+				7DFD655F200A2F630012CABE /* Controllers */,
+				7DFD654D200A2E110012CABE /* AppDelegate.swift */,
+				7DFD654F200A2E110012CABE /* MainViewController.swift */,
+				7DFD657B200A3FE10012CABE /* BookCell.swift */,
+				7DFD6577200A3C210012CABE /* BooksDataSource.swift */,
+				7DFD6551200A2E110012CABE /* Main.storyboard */,
+				7DFD6554200A2E110012CABE /* Assets.xcassets */,
+				7DFD6556200A2E110012CABE /* LaunchScreen.storyboard */,
+				7DFD6559200A2E110012CABE /* Info.plist */,
+				7DFD657D200A44580012CABE /* Extensions */,
+			);
+			path = HoliduTestApp;
+			sourceTree = "<group>";
+		};
+		7DFD655F200A2F630012CABE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7DFD6568200A306D0012CABE /* Controllers.swift */,
+				7DFD6571200A37790012CABE /* ObjectResponse.swift */,
+				7DFD6579200A3CCB0012CABE /* Injectable.swift */,
+				7DFD6560200A2F6F0012CABE /* Network */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7DFD6560200A2F6F0012CABE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				7DFD6561200A30170012CABE /* BooksController.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		7DFD6563200A302B0012CABE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7DFD6566200A30400012CABE /* Services.swift */,
+				7DFD6564200A30370012CABE /* BooksService.swift */,
+				7DFD656A200A32330012CABE /* APIVersion.swift */,
+				7DFD656C200A34E60012CABE /* Response.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7DFD656E200A36130012CABE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7DFD6573200A3A870012CABE /* Models.swift */,
+				7DFD656F200A36480012CABE /* Book.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7DFD657D200A44580012CABE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7DFD657E200A44630012CABE /* UIImageView+Networking.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DFD6549200A2E110012CABE /* HoliduTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DFD655C200A2E110012CABE /* Build configuration list for PBXNativeTarget "HoliduTestApp" */;
+			buildPhases = (
+				2FAF3305E19A1FFCBB80A765 /* [CP] Check Pods Manifest.lock */,
+				7DFD6546200A2E110012CABE /* Sources */,
+				7DFD6547200A2E110012CABE /* Frameworks */,
+				7DFD6548200A2E110012CABE /* Resources */,
+				2E777AAABD125BAAA058D69D /* [CP] Embed Pods Frameworks */,
+				8A689510BE03D0964F476E70 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoliduTestApp;
+			productName = HoliduTestApp;
+			productReference = 7DFD654A200A2E110012CABE /* HoliduTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DFD6542200A2E110012CABE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Dmitry inc";
+				TargetAttributes = {
+					7DFD6549200A2E110012CABE = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7DFD6545200A2E110012CABE /* Build configuration list for PBXProject "HoliduTestApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DFD6541200A2E110012CABE;
+			productRefGroup = 7DFD654B200A2E110012CABE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DFD6549200A2E110012CABE /* HoliduTestApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DFD6548200A2E110012CABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DFD6558200A2E110012CABE /* LaunchScreen.storyboard in Resources */,
+				7DFD6555200A2E110012CABE /* Assets.xcassets in Resources */,
+				7DFD6553200A2E110012CABE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E777AAABD125BAAA058D69D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HoliduTestApp/Pods-HoliduTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FAF3305E19A1FFCBB80A765 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8A689510BE03D0964F476E70 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HoliduTestApp/Pods-HoliduTestApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DFD6546200A2E110012CABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DFD6574200A3A870012CABE /* Models.swift in Sources */,
+				7DFD6578200A3C210012CABE /* BooksDataSource.swift in Sources */,
+				7DFD656D200A34E60012CABE /* Response.swift in Sources */,
+				7DFD6567200A30400012CABE /* Services.swift in Sources */,
+				7DFD6569200A306D0012CABE /* Controllers.swift in Sources */,
+				7DFD6565200A30370012CABE /* BooksService.swift in Sources */,
+				7DFD6562200A30170012CABE /* BooksController.swift in Sources */,
+				7DFD657A200A3CCB0012CABE /* Injectable.swift in Sources */,
+				7DFD6570200A36480012CABE /* Book.swift in Sources */,
+				7DFD6550200A2E110012CABE /* MainViewController.swift in Sources */,
+				7DFD657C200A3FE10012CABE /* BookCell.swift in Sources */,
+				7DFD657F200A44630012CABE /* UIImageView+Networking.swift in Sources */,
+				7DFD6572200A37790012CABE /* ObjectResponse.swift in Sources */,
+				7DFD654E200A2E110012CABE /* AppDelegate.swift in Sources */,
+				7DFD656B200A32330012CABE /* APIVersion.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7DFD6551200A2E110012CABE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DFD6552200A2E110012CABE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7DFD6556200A2E110012CABE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DFD6557200A2E110012CABE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DFD655A200A2E110012CABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7DFD655B200A2E110012CABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DFD655D200A2E110012CABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE1E062F3D3848B00CB43DA4 /* Pods-HoliduTestApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9DKRYCQ8MC;
+				INFOPLIST_FILE = HoliduTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dmitry-inc.HoliduTestApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DFD655E200A2E110012CABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C48EF027728E35A4389A824 /* Pods-HoliduTestApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9DKRYCQ8MC;
+				INFOPLIST_FILE = HoliduTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dmitry-inc.HoliduTestApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DFD6545200A2E110012CABE /* Build configuration list for PBXProject "HoliduTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DFD655A200A2E110012CABE /* Debug */,
+				7DFD655B200A2E110012CABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DFD655C200A2E110012CABE /* Build configuration list for PBXNativeTarget "HoliduTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DFD655D200A2E110012CABE /* Debug */,
+				7DFD655E200A2E110012CABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DFD6542200A2E110012CABE /* Project object */;
+}
